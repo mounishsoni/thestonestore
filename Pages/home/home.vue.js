@@ -1,4 +1,4 @@
-const Home = {
+const homeComponent = {
     data: function() {
         return {
             
