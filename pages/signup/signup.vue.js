@@ -40,7 +40,9 @@ const signUpComponent = {
     template: `
     <div class="row my-4">
     <div class="col"></div>
+
     <div class="card col-lg-6">
+
     
     <div class="card-body">
 
