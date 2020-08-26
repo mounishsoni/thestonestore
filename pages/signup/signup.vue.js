@@ -33,14 +33,16 @@ const signUpComponent = {
                   });
                 
             }))
-            // auth.signOut()
+            // TODO: Redirect to Sign IN Route
             this.$router.push('/')
         }
     },
     template: `
     <div class="row my-4">
     <div class="col"></div>
-    <div class="card col-md-6">
+
+    <div class="card col-lg-6">
+
     
     <div class="card-body">
 
