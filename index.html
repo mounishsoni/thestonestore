@@ -18,10 +18,19 @@
     <!-- Custom Style Sheet Connection -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: #EAEAEA;">
+
+    <div id="header">
+      <header-component></header-component>
+    </div>
     <div class="container" id="app">
         <router-view />
     </div>
+
+    <div id="footer">
+      <footer-component></footer-component>
+    </div>
+
 
     <!-- MDBootstrap JS Libraries Connection -->
     <!-- JQuery -->
@@ -49,11 +58,14 @@
     <script src="firebase-connection.js"></script>
 
     <!-- Connect all Vue Components before Connecting to Vue Router -->
-    <script src="Pages/home.vue.js"></script>
+    <script src="pages/home/home.vue.js"></script>
+    <script src="pages/signup/signup.vue.js"></script>
     <!-- Vue Routes Connection -->
     <script src="routes.js"></script>
     <!-- Vue App Connection -->
     <script src="app.js"></script>
+    <script src="header.js"></script> 
+    <script src="footer.js"></script>
     
 </body>
 </html>
