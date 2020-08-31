@@ -33,7 +33,6 @@ const signUpComponent = {
                   });
                 
             }))
-            // TODO: Redirect to Sign IN Route
             this.$router.push('/signin')
         }
     },
