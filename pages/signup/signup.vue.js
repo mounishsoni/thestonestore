@@ -33,8 +33,7 @@ const signUpComponent = {
                   });
                 
             }))
-            // TODO: Redirect to Sign IN Route
-            this.$router.push('/')
+            this.$router.push('/signin')
         }
     },
     template: `
@@ -84,6 +83,9 @@ const signUpComponent = {
         <!-- Sign up button -->
         <button class="btn btn-info my-4 btn-block" type="submit" @click.prevent=createUser>Sign up</button>
     
+        <p>Already a member?
+                <router-link to="/signin">Sign In</router-link>
+            </p>
         <!-- Social register -->
         <p>or sign up with:</p>
     

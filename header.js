@@ -26,7 +26,7 @@ Vue.component('header-component', {
                   </li>
                   <li class="nav-item nav-link">|</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
+                    <router-link :to="'/signin'" class="nav-item nav-link">Sign In</router-link>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
