@@ -64,7 +64,7 @@ Vue.component('header-component', {
                 <a class="nav-link" href="#">My Account</a>
               </li>
               <li class="nav-item pr-3">
-                <a class="nav-link mr-1" href="#">Contact Us</a>
+                <router-link to="/contact" class="nav-link">Contact Us</router-link>
               </li>
                 <!-- <li class="nav-item"> <a class="nav-link" href="#">
               <i class="fab fa-linkedin"></i><span class="d-lg-none ml-3">Linkedin</span>
